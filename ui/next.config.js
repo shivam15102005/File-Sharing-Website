@@ -12,14 +12,15 @@ const nextConfig = {
     return [
       {
         source: '/api/upload',
-        destination: 'http://localhost:8080/upload',
+        destination: 'https://file-sharing-website-estw.onrender.com/upload',
       },
       {
         source: '/api/download/:port',
-        destination: 'http://localhost:8080/download/:port',
+        destination: 'https://file-sharing-website-estw.onrender.com/download/:port',
       },
     ];
   },
 }
 
 module.exports = nextConfig
+
