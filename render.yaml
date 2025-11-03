@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: file-sharing-backend
-    env: java
-    buildCommand: mvn clean package -DskipTests
-    startCommand: java -cp target/p2p-1.0-SNAPSHOT.jar org.abhineshjha.App
-    envVars:
-      - key: PORT
-        value: 8080
